@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  PandemicStat
 //
-//  Created by RNSS on 30/03/20.
+//  Created by Rajesh M on 30/03/20.
 //  Copyright © 2020 Rajesh M. All rights reserved.
 //
 
