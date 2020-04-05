@@ -82,7 +82,8 @@ class ViewController: UIViewController {
         let headers: HTTPHeaders = [
             
             "x-rapidapi-host": "covid-19-data.p.rapidapi.com",
-            "x-rapidapi-key": "f446c84865msh0fc29ed5a477740p1ebd05jsn4eb4d4704788"
+            "x-rapidapi-key": "your-api-key-here"
+
         ]
         
         
