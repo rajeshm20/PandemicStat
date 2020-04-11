@@ -7,6 +7,10 @@ target 'PandemicStat' do
 
   # Pods for PandemicStat
   pod 'Alamofire'
+  pod 'Charts'
+  pod 'WhirlyGlobe', :git => 'https://github.com/mousebird/WhirlyGlobe.git', :branch => 'develop'
+  pod 'WhirlyGlobeResources'
+  
   target 'PandemicStatTests' do
     inherit! :search_paths
     # Pods for testing

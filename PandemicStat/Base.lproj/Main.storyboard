@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="5ud-fe-2nT">
     <device id="retina3_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
@@ -49,21 +49,21 @@
                                                                     <constraint firstAttribute="width" secondItem="ndj-q2-Udi" secondAttribute="height" multiplier="1:1" id="JRz-aO-bEI"/>
                                                                 </constraints>
                                                             </imageView>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Affected" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="jsL-Xa-Gh1">
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Affected" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jsL-Xa-Gh1">
                                                                 <rect key="frame" x="8" y="30" width="55" height="15"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" secondItem="jsL-Xa-Gh1" secondAttribute="height" multiplier="11:3" id="Co8-ML-OLv"/>
                                                                 </constraints>
-                                                                <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="35"/>
+                                                                <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="12"/>
                                                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="15" translatesAutoresizingMaskIntoConstraints="NO" id="vjh-Fp-qAk">
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="15" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vjh-Fp-qAk">
                                                                 <rect key="frame" x="8" y="60" width="56" height="31"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" secondItem="vjh-Fp-qAk" secondAttribute="height" multiplier="56:31" id="wZr-JA-6Bs"/>
                                                                 </constraints>
-                                                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="30"/>
+                                                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="12"/>
                                                                 <color key="textColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
@@ -91,21 +91,21 @@
                                                                     <constraint firstAttribute="width" secondItem="HiF-ny-sxt" secondAttribute="height" multiplier="1:1" id="nyQ-lG-nJU"/>
                                                                 </constraints>
                                                             </imageView>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Recovered" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="ZO3-en-7Ov">
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Recovered" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZO3-en-7Ov">
                                                                 <rect key="frame" x="8" y="30" width="55" height="15"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" secondItem="ZO3-en-7Ov" secondAttribute="height" multiplier="11:3" id="bdQ-3r-fYh"/>
                                                                 </constraints>
-                                                                <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="35"/>
+                                                                <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="12"/>
                                                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="15" translatesAutoresizingMaskIntoConstraints="NO" id="0CH-wP-guC">
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="15" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0CH-wP-guC">
                                                                 <rect key="frame" x="8" y="60" width="56" height="31"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" secondItem="0CH-wP-guC" secondAttribute="height" multiplier="56:31" id="35e-5H-feB"/>
                                                                 </constraints>
-                                                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="30"/>
+                                                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="12"/>
                                                                 <color key="textColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
@@ -133,21 +133,21 @@
                                                                     <constraint firstAttribute="width" secondItem="dhQ-Q7-uW6" secondAttribute="height" multiplier="1:1" id="VYe-If-R6Y"/>
                                                                 </constraints>
                                                             </imageView>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dead" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="CVE-G5-zEa">
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dead" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CVE-G5-zEa">
                                                                 <rect key="frame" x="8" y="30" width="55" height="15"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" secondItem="CVE-G5-zEa" secondAttribute="height" multiplier="11:3" id="gVI-MK-Aem"/>
                                                                 </constraints>
-                                                                <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="35"/>
+                                                                <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="12"/>
                                                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="15" translatesAutoresizingMaskIntoConstraints="NO" id="DJg-21-Gnl">
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="15" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DJg-21-Gnl">
                                                                 <rect key="frame" x="8" y="60" width="56" height="31"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" secondItem="DJg-21-Gnl" secondAttribute="height" multiplier="56:31" id="bUg-BN-tSw"/>
                                                                 </constraints>
-                                                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="30"/>
+                                                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="12"/>
                                                                 <color key="textColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
@@ -175,21 +175,21 @@
                                                                     <constraint firstAttribute="width" secondItem="53j-sY-Ahm" secondAttribute="height" multiplier="1:1" id="g8X-X0-dGe"/>
                                                                 </constraints>
                                                             </imageView>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Critical" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="e0Q-jG-FTt">
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Critical" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e0Q-jG-FTt">
                                                                 <rect key="frame" x="8" y="30" width="55" height="15"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" secondItem="e0Q-jG-FTt" secondAttribute="height" multiplier="11:3" id="MiV-6e-Bkx"/>
                                                                 </constraints>
-                                                                <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="35"/>
+                                                                <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="12"/>
                                                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="15" translatesAutoresizingMaskIntoConstraints="NO" id="soL-j8-uLb">
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="15" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="soL-j8-uLb">
                                                                 <rect key="frame" x="8" y="60" width="56" height="31"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" secondItem="soL-j8-uLb" secondAttribute="height" multiplier="56:31" id="G4g-JK-oQX"/>
                                                                 </constraints>
-                                                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="30"/>
+                                                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="12"/>
                                                                 <color key="textColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
@@ -229,7 +229,7 @@
                                                 </constraints>
                                             </view>
                                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceHorizontal="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" springLoaded="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Yti-iZ-bjI">
-                                                <rect key="frame" x="8" y="302" width="288" height="188"/>
+                                                <rect key="frame" x="8" y="334" width="288" height="188"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="Yti-iZ-bjI" secondAttribute="height" multiplier="72:47" id="yeQ-H0-Jcv"/>
@@ -300,7 +300,7 @@
                                             <constraint firstAttribute="width" secondItem="53R-s5-XEC" secondAttribute="height" multiplier="38:83" id="UUN-rY-TNP"/>
                                             <constraint firstItem="Yti-iZ-bjI" firstAttribute="leading" secondItem="53R-s5-XEC" secondAttribute="leading" constant="8" id="WYc-et-bzo"/>
                                             <constraint firstItem="0TB-hD-qUG" firstAttribute="top" secondItem="53R-s5-XEC" secondAttribute="top" constant="8" id="daZ-2d-mPI"/>
-                                            <constraint firstItem="Yti-iZ-bjI" firstAttribute="top" secondItem="gVx-3V-ajt" secondAttribute="bottom" constant="28" id="kQm-jU-JeP"/>
+                                            <constraint firstItem="Yti-iZ-bjI" firstAttribute="top" secondItem="gVx-3V-ajt" secondAttribute="bottom" constant="60" id="kQm-jU-JeP"/>
                                             <constraint firstItem="0TB-hD-qUG" firstAttribute="leading" secondItem="53R-s5-XEC" secondAttribute="leading" constant="90" id="rF3-3q-Q52"/>
                                         </constraints>
                                     </view>
@@ -338,7 +338,23 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-135" y="96.25"/>
+            <point key="canvasLocation" x="-549" y="110"/>
+        </scene>
+        <!--Globe View Controller-->
+        <scene sceneID="O6d-1W-OFR">
+            <objects>
+                <viewController id="5ud-fe-2nT" customClass="GlobeViewController" customModule="PandemicStat" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="rFa-lo-EGd">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="780"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="1d1-zk-U55"/>
+                    </view>
+                    <size key="freeformSize" width="320" height="780"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uxm-N0-69u" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="347" y="110"/>
         </scene>
     </scenes>
     <resources>

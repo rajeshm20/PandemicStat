@@ -18,9 +18,6 @@ class ViewController: UIViewController {
     @IBOutlet var crtiticaNoLabel: UILabel!
     @IBOutlet var countryCollectionView: UICollectionView!
     
-    let rapidCoronaStatTotalURL = "https://covid-19-data.p.rapidapi.com/totals"
-    let rapidCoronaStatByCountryURL = "https://covid-19-data.p.rapidapi.com/country/code"
-    var flags = [UIImage]()
     var countries: [Country] = [Country]()
     
     override func viewDidLoad() {
@@ -28,7 +25,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         DispatchQueue.global(qos: .background).async {
             
-            self.fetchCoronaStat(ur: self.rapidCoronaStatTotalURL, alpha2Code: "")
+            self.fetchCoronaStat(ur: CoronaAPI.rapidCoronaStatTotalURL, alpha2Code: "")
         }
         
         
@@ -82,8 +79,7 @@ class ViewController: UIViewController {
         let headers: HTTPHeaders = [
             
             "x-rapidapi-host": "covid-19-data.p.rapidapi.com",
-            "x-rapidapi-key": "your-api-key-here"
-
+            "x-rapidapi-key": "f446c84865msh0fc29ed5a477740p1ebd05jsn4eb4d4704788"
         ]
         
         
@@ -141,32 +137,6 @@ class ViewController: UIViewController {
     
     
     
-    func getImage(){
-        
-        let fileManager = FileManager.default
-               let bundleURL = Bundle.main.bundleURL
-               let assetURL = bundleURL.appendingPathComponent("CountryPickerView.bundle/Images/") // Bundle URL
-               do {
-                   let contents = try fileManager.contentsOfDirectory(at: assetURL,
-                                                                      includingPropertiesForKeys: [URLResourceKey.nameKey, URLResourceKey.isDirectoryKey],
-                                                                      options: .skipsHiddenFiles)
-                   
-                   for item in contents { // item is the URL of everything in MyBundle imgs or otherwise.
-                       print("itemURL: \(item)")
-                       let image = UIImage(contentsOfFile: item.path) // Initializing an image
-                       flags.append(image!) // Adding the image to the icons array
-                       
-                   }
-               }
-                   
-               catch let error as NSError {
-                   print(error)
-               }
-               
-               print("fags-count: \(flags.count)")
-               print("fags-array: \(flags)")
-               
-    }
     
     
 }
@@ -203,7 +173,7 @@ extension ViewController: UICollectionViewDelegate, UICollectionViewDataSource {
             
             let alpha2Code:String = (self.countries[indexPath.row].alpha2Code?.lowercased())!
             debugPrint("checkAlpha2: \(alpha2Code)")
-            self.fetchCoronaStat(ur: self.rapidCoronaStatByCountryURL, alpha2Code:alpha2Code)
+            self.fetchCoronaStat(ur: CoronaAPI.rapidCoronaStatByCountryURL, alpha2Code:alpha2Code)
             
         }
     }
