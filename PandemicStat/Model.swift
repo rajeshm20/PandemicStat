@@ -106,12 +106,20 @@ var country = """
 [{"country":"Afghanistan","confirmed":299,"recovered":10,"critical":0,"deaths":6,"latitude":33.93911,"longitude":67.709953}]
 
 """
+
+public struct ResponseBody: Codable {
+    
+    var totalResponse: [TotalResponse?]
+}
+
 public struct TotalResponse: Codable {
     
-    var confirmed: String?
-    var recovered: String?
-    var critical: String?
-    var deaths: String?
+    var confirmed: Int?
+    var critical: Int?
+    var deaths: Int?
+    var lastChange: String?
+    var lastUpdate: String?
+    var recovered: Int?
 }
 
 public struct CountryResponse: Codable {

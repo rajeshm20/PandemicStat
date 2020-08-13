@@ -1,3 +1,5 @@
+
+
 //
 //  ViewController.swift
 //  PandemicStat
@@ -93,13 +95,13 @@ class ViewController: UIViewController {
                     
                     let data = Data(response.data!)
                     let decoder = JSONDecoder()
-                    let jsonData = try decoder.decode([TotalResponse].self, from: data).first
-                
+                    let jsonData = try decoder.decode([TotalResponse].self, from: data)
+                    let total = jsonData.first
                     DispatchQueue.main.async {
-                        self.affectedNoLabel.text = jsonData?.confirmed ?? "-"
-                        self.crtiticaNoLabel.text = jsonData?.critical ?? "-"
-                        self.deadNoLabel.text = jsonData?.deaths ?? "-"
-                        self.recoveredNoLabel.text = jsonData?.recovered ?? "-"
+                        self.affectedNoLabel.text = "\(total?.confirmed ?? 0)"
+                        self.crtiticaNoLabel.text = "\(total?.critical ?? 0)"
+                        self.deadNoLabel.text = "\(total?.deaths ?? 0)"
+                        self.recoveredNoLabel.text = "\(total?.recovered ?? 0)"
                     }
                     
                 } catch {
@@ -136,6 +138,10 @@ class ViewController: UIViewController {
         
     
     
+    @IBAction func showGlobe(_ sender: Any) {
+        
+        performSegue(withIdentifier: "toGlobe", sender: sender)
+    }
     
     
     
